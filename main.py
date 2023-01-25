@@ -6,5 +6,12 @@ class Rectangle:
     def area(self):
         return self.a * self.b
 
+
+class Circle:
+    def __int__(self, r):
+        self.r = r
+
+
 main_rect = Rectangle(5, 4)
 print(main_rect.area())
+main_circle = Circle(2)
